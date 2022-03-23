@@ -42,7 +42,7 @@
 
 ### 项目预览
 
-![推荐歌单](README.assets/推荐歌单.png)
+![推荐歌单](./README.assets/推荐歌单.png)
 
 ![推荐mv](README.assets/推荐mv.png)
 
