@@ -1,0 +1,55 @@
+/* 清除默认样式 */
+html,body {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: Barlow,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif,microsoft uighur;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.el-pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+
+audio {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #DCDCDC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #BEBEBE;
+}

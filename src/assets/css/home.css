@@ -1,0 +1,224 @@
+/* 首页样式 */
+
+/* 推荐歌单样式 */
+.home-container {
+  padding-top: 40px;
+  margin-bottom: 64px;
+}
+
+.home-container .recommend .title {
+  margin-left: 10px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.home-container .recommend {
+  margin: 0 9vw;
+  margin-bottom: 28px;
+}
+
+.home-container .recommend .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-container .recommend .items .item {
+  width: 260px;
+  margin: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.home-container .recommend .items .item img {
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-container .recommend .items .item .desc {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.home-container .recommend .items .item .img-wrap {
+  position: relative;
+}
+
+.home-container .recommend .items .item .img-wrap .el-icon-video-play {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: 50%;
+  margin-top: -30px;
+  font-size: 60px;
+  color: #EEE9E9;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  background: hsla(0,0%,100%,.14);
+  opacity: 0;
+}
+
+.home-container .recommend .items .item .img-wrap:hover .el-icon-video-play {
+  opacity: 1;
+}
+
+.home-container .recommend .items .item .img-wrap:hover img {
+  transform: scale(1.04)
+}
+
+/* 最新音乐样式 */
+.home-container .new .title {
+  margin-left: 10px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.home-container .new {
+  margin: 0 9vw;
+  margin-bottom: 28px;
+}
+
+.home-container .new .items .item .img-wrap:hover img {
+  border-radius: 50%;
+}
+
+.home-container .new .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-container .new .items .item {
+  width: 260px;
+  margin: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.home-container .new .items .item img {
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-container .new .items .item .img-wrap {
+  position: relative;
+}
+
+.home-container .new .items .item .img-wrap .el-icon-video-play {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: 50%;
+  margin-top: -30px;
+  font-size: 60px;
+  color: #EEE9E9;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  background: hsla(0,0%,100%,.14);
+  opacity: 0;
+}
+
+.home-container .new .items .item .img-wrap:hover .el-icon-video-play {
+  opacity: 1;
+}
+
+.home-container .new .items .item .song-wrap {
+  text-align: center;
+  margin-top: 8px;
+  line-height: 22px;
+}
+
+.home-container .new .items .item .song-wrap .song-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.home-container .new .items .item .song-wrap .singer {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 推荐MV样式 */
+.home-container .mv .title {
+  margin-left: 10px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.home-container .mv {
+  margin: 0 9vw;
+}
+
+.home-container .mv .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-container .mv .items .item {
+  width: 330px;
+  margin: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.home-container .mv .items .item img {
+  width: 330px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-container .mv .items .item .desc {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.home-container .mv .items .item .img-wrap {
+  position: relative;
+}
+
+.home-container .mv .items .item .img-wrap .el-icon-video-play {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  font-size: 60px;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  background: hsla(0,0%,100%,.14);
+  opacity: 0;
+}
+
+.home-container .mv .items .item .img-wrap:hover .el-icon-video-play {
+  opacity: 1;
+}
+
+.home-container .mv .items .item .mv-wrap {
+  margin-top: 8px;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.home-container .mv .items .item .mv-wrap .mv-name {
+  color: #000;
+}
+
+.home-container .mv .items .item .mv-wrap .singer {
+  color: #696969;
+}
+
+.home-container .mv .items .item .img-wrap:hover img {
+  transform: scale(1.04)
+}

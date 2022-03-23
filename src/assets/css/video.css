@@ -1,0 +1,118 @@
+/* 视频页样式 */
+.video-container {
+  margin: 0 9vw;
+  padding-top: 48px;
+  margin-bottom: 64px;
+}
+
+.video-container .selector-wrap {
+  margin-top: 32px;
+  margin-left: 10px;
+  padding: 16px 30px;
+  border-radius: 10px;
+  background-color: #f5f5f7;
+}
+
+.video-container .selector-wrap .region-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.video-container .selector-wrap .sort-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-container .selector-wrap .buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-container .buttons .button {
+  margin: 0 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7a7a7b;
+}
+
+.video-container .buttons .button:hover {
+  color: #335eea;
+  background-color: rgba(189,207,255,0.28)
+}
+
+.video-container .selector-wrap .region-wrap .region-name {
+  padding-top: 4px;
+  font-size: 20px;
+}
+
+.video-container .selector-wrap .sort-wrap .sort-name {
+  padding-top: 2px;
+  font-size: 20px;
+}
+
+.video-container .mvs {
+  margin-top: 20px;
+}
+
+.video-container .mvs .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-container .mvs .items .item {
+  width: 330px;
+  margin: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.video-container .mvs .items .item img {
+  width: 330px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video-container .mvs .items .item .img-wrap {
+  position: relative;
+}
+
+.video-container .mvs .items .item .img-wrap .el-icon-video-play {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 60px;
+  color: #EEE9E9;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  background: hsla(0,0%,100%,.14);
+  opacity: 0;
+}
+
+.video-container .mvs .items .item .img-wrap:hover .el-icon-video-play {
+  opacity: 1;
+}
+
+.video-container .mvs .items .item .img-wrap:hover img {
+  transform: scale(1.04)
+}
+
+.video-container .mvs .items .item .mv-wrap {
+  margin-top: 8px;
+  line-height: 22px;
+  color: #696969;
+  font-size: 14px;
+}
+
+.video-container .mvs .items .item .mv-wrap .name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.video-container .buttons .button.active {
+  color: #335eea;
+}

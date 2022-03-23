@@ -1,0 +1,116 @@
+.video-detail-container {
+  margin: 0 10vw;
+  padding-top: 48px;
+  margin-bottom: 64px;
+}
+
+.video-detail-container .video-wrap {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.video-detail-container .video-wrap video {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.video-detail-container .video-wrap .info-wrap {
+  margin-top: 12px;
+}
+
+.video-detail-container .video-wrap .info-wrap .video-info {
+  margin-bottom: 20px;
+}
+
+.video-detail-container .video-wrap .info-wrap .video-info .title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.video-detail-container .video-wrap .info-wrap .video-info .date {
+  font-size: 16px;
+  font-weight: 500;
+  color: #696969;
+  margin-right: 40px;
+}
+
+.video-detail-container .video-wrap .info-wrap .video-info .num {
+  font-size: 16px;
+  font-weight: 500;
+  color: #696969;
+}
+
+.video-detail-container .video-wrap .info-wrap .video-info .desc {
+  margin-top: 20px;
+  font-weight: 500;
+  width: 1000px;
+}
+
+.video-detail-container .recommend-wrap {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.video-detail-container .recommend-wrap .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.video-detail-container .recommend-wrap .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-detail-container .recommend-wrap .items .item {
+  width: 230px;
+  margin: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.video-detail-container .recommend-wrap .items .item img {
+  width: 230px;
+  height: 140px;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video-detail-container .recommend-wrap .items .item .img-wrap {
+  position: relative;
+}
+
+.video-detail-container .recommend-wrap .items .item .img-wrap .el-icon-video-play {
+  position: absolute;
+  right: 14px;
+  bottom: 16px;
+  font-size: 40px;
+  color: #EEE9E9;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  background: hsla(0,0%,100%,.14);
+  opacity: 0;
+}
+
+.video-detail-container .recommend-wrap .items .item .img-wrap:hover .el-icon-video-play {
+  opacity: 1;
+}
+
+.video-detail-container .recommend-wrap .items .item .img-wrap:hover img {
+  transform: scale(1.02)
+}
+
+.video-detail-container .recommend-wrap .items .item .mv-wrap {
+  margin-top: 8px;
+  line-height: 22px;
+  color: #696969;
+  font-size: 14px;
+}
+
+.video-detail-container .recommend-wrap .items .item .mv-wrap .name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
