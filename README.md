@@ -1,6 +1,6 @@
 ### 项目介绍
 
-- 基于 Vue 的音乐播放器项目，是我初学 Vue 框架的第一个练手项目，UI 参考了 [YesPlayMusic](https://music.qier222.com/)，后端 API [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，调用的 [接口文档](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi)
+- 基于 Vue 的音乐播放器项目，初学 Vue 框架的第一个练手项目，UI 参考了 [YesPlayMusic](https://music.qier222.com/)，后端 API [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，调用的 [接口文档](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi)
 - 功能实现
   - [x] 推荐歌单
   - [x] 最新音乐
