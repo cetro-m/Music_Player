@@ -7,7 +7,6 @@
     <!-- 播放栏 -->
     <layout-footer></layout-footer>
   </div>
-  <div></div>
 </template>
 
 <script>
